@@ -43,3 +43,4 @@ if (!is.null(DEMO$relive_date)) {
   .workshop_start   <<- as.Date(.workshop_start + lubridate::days(DEMO$adjust_days))
   .conference_start <<- as.Date(.conference_start + lubridate::days(DEMO$adjust_days))
 }
+
